@@ -1,0 +1,19 @@
+# src/app/page.js  is our home page, and from there other routing starts
+
+# page.js  is the entry point of every new route (folder)
+
+# [slug]  are used to create dynamic routes
+
+# Always use ' Link ' instead of ' <a> tag ' in Next Application because
+`<Link>` enables client-side navigation, so only the required page content is updated without a full page reload, whereas `<a>` triggers a full browser page reload, making navigation slower by fetching the  web page from the server all over again
+
+# Always use ' Image ' instead of ' <img> tag ' in Next Application because
+`<Image>` optimizes our images so that large image files do not consume our whole bandwidth, has less load on server and many more
+
+# For rendering similar components in multiple pages, we use the concept of ' Layouts ' which is done in layout.js file
+
+# For making backend api routes in Next JS, we have to 1st make API routes, which we will make in the same folder way as we use to do for our frontend, and this time our backend folder name is 'api' under the 'src' folder. Then for the logic and all we will create a route.js file
+Also, all the routes are mentioned at one place and that is ' api.rest ' file and from there we can directly hit our backend routes and test  
+
+
+## Understand what is compenent and differece between server compenent and client component (Ni samj aaya, take reference of the files post.js, page.js  of the blog folder and understand again). Rest of SSR, CSR, SSR, ISG, SPA are all understood.
